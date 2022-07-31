@@ -1,0 +1,31 @@
+@font-face {
+
+  font-family: "BoosterNextFY-medium";
+  src: local('BoosterNextFY'), url(./Fonts/BoosterNextFY/BoosterNextFY-Medium.woff) format('woff');
+}
+
+@font-face {
+
+  font-family: "BoosterNextFY-bold";
+  src: local('BoosterNextFY'), url(./Fonts/BoosterNextFY/BoosterNextFY-Black.woff) format('woff');
+}
+
+
+
+body {
+  background-color: #3a3d57;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  background-image: url("../src/Assets/bg-deco-left.svg"), url("../src/Assets/bg-deco-right.svg");
+  background-repeat: no-repeat;
+  background-size: 120px, 150px;
+  background-position: 0 100%, 100% 2%;
+  display: block;
+
+}

@@ -1,0 +1,30 @@
+.tableExpanded{
+    display: flex;
+    background-color: white;
+    padding: 0px 25px 25px 20px
+}
+.imageForTableExplanded{
+    width: 250px;
+    margin-right: 25px;
+}
+
+.loeRohkemButton{
+    display: inline-block;
+    background-color: #14cc76;
+    cursor: pointer;
+    border-bottom: 0.25rem solid #37945C;
+    margin: 0 0 16px;   
+    padding: .45em 1em;
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+.table-expanded-article-body{
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    
+}

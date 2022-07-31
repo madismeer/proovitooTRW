@@ -1,0 +1,139 @@
+.ArticleView {
+    display: block;
+    padding: 5rem 23%;
+    font-family: "BoosterNextFY-bold";
+    color: white;
+}
+
+.ArticleView h1 {
+    text-transform: uppercase;
+    font-size: 52px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+.article-intro {
+    text-align: left;
+}
+
+.article-body {
+    font-family: "BoosterNextFY-medium";
+    text-align: left;
+}
+
+.article-body p {
+    padding-bottom: 25px;
+}
+
+
+.article-tags {
+    margin-right: 10px;
+    display: inline-flex;
+    background-color: #ff57a2;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 14px;
+    text-align: left;
+}
+
+.keppTagsLeft {
+    text-align: left;
+}
+
+
+.ImageContainer {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 25vw;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.imageForArticle {
+
+    width: 100%;
+    height: 25vw;
+    position: relative;
+    filter: blur(8px);
+    will-change: transform;
+    transition: transform .25s;
+}
+
+.imageForArticleOverlay {
+    width: 70%;
+    position: absolute;
+    height: 25vw;
+    left: 15%;
+    transition: transform .2s;
+}
+
+
+.ImageContainer:hover .imageForArticleOverlay {
+    transform: scale(1.05);
+}
+
+.ImageContainer:hover .imageForArticle {
+    transform: scale(1.15);
+}
+
+.imageTitleContainer {
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    font-family: "BoosterNextFY-medium";
+    bottom: 0;
+
+}
+
+.imageTitle {
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .ArticleView h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .ArticleView {
+        padding: 5rem 10rem;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .ArticleView {
+        padding: 5rem 2rem;
+    }
+
+    .ImageContainer {
+        height: 40vw;
+    }
+
+
+    .imageForArticle {
+        height: 40vw;
+    }
+
+    .imageForArticleOverlay {
+        height: 40vw;
+    }
+
+}
