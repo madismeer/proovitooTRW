@@ -6,6 +6,7 @@
 ## General info
 
 Proovitöö juhend asub https://proovitoo.twn.ee/
+Testitud Chrome-is
 	
 ## Technologies
 
